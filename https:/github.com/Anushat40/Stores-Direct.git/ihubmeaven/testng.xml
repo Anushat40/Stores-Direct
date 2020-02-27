@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ihubdirect.myorders"/>
+      <class name="com.ihubdirect.product_wishlist"/>
+      <class name="com.ihubdirect.viewdetails"/>
+      <class name="com.ihubdirect.Signin"/>
+      <class name="com.ihubdirect.New_arrivals"/>
+      <class name="com.ihubdirect.addtocart_cancel"/>
+      <class name="com.ihubdirect.addnew_address"/>
+      <class name="com.ihubdirect.mywallet"/>
+      <class name="com.ihubdirect.addtocart_payment"/>
+      <class name="com.ihubdirect.saveaddress_delet"/>
+      <class name="com.ihubdirect.Register"/>
+      <class name="com.ihubdirect.addtocart"/>
+      <class name="com.ihubdirect.mywishlist"/>
+      <class name="com.ihubdirect.personal_address"/>
+      <class name="com.ihubdirect.addtocart_wishlist"/>
+      <class name="com.ihubdirect.location_change"/>
+      <class name="com.ihubdirect.countinues_shopping"/>
+      <class name="com.ihubdirect.request_product"/>
+      <class name="com.ihubdirect.saveaddress_edit"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

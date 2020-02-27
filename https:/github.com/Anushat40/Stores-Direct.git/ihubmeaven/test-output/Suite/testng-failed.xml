@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ihubdirect.Register">
+        <methods>
+          <include name="setup"/>
+          <include name="endtest"/>
+          <include name="afterSuite"/>
+          <include name="suite"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.ihubdirect.Register -->
+      <class name="com.ihubdirect.addtocart_cancel">
+        <methods>
+          <include name="setup"/>
+          <include name="add"/>
+          <include name="endtest"/>
+          <include name="suite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.ihubdirect.addtocart_cancel -->
+      <class name="com.ihubdirect.countinues_shopping">
+        <methods>
+          <include name="setup"/>
+          <include name="f"/>
+          <include name="endtest"/>
+          <include name="suite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.ihubdirect.countinues_shopping -->
+      <class name="com.ihubdirect.personal_address">
+        <methods>
+          <include name="f"/>
+          <include name="setup"/>
+          <include name="endtest"/>
+          <include name="suite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.ihubdirect.personal_address -->
+      <class name="com.ihubdirect.saveaddress_delet">
+        <methods>
+          <include name="f"/>
+          <include name="setup"/>
+          <include name="endtest"/>
+          <include name="suite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.ihubdirect.saveaddress_delet -->
+      <class name="com.ihubdirect.myorders">
+        <methods>
+          <include name="setup"/>
+          <include name="f"/>
+          <include name="endtest"/>
+          <include name="suite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.ihubdirect.myorders -->
+      <class name="com.ihubdirect.addnew_address">
+        <methods>
+          <include name="setup"/>
+          <include name="f"/>
+          <include name="endtest"/>
+          <include name="suite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.ihubdirect.addnew_address -->
+      <class name="com.ihubdirect.addtocart_wishlist">
+        <methods>
+          <include name="f"/>
+          <include name="setup"/>
+          <include name="endtest"/>
+          <include name="suite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.ihubdirect.addtocart_wishlist -->
+      <class name="com.ihubdirect.product_wishlist">
+        <methods>
+          <include name="setup"/>
+          <include name="f"/>
+          <include name="endtest"/>
+          <include name="afterSuite"/>
+          <include name="suite"/>
+        </methods>
+      </class> <!-- com.ihubdirect.product_wishlist -->
+      <class name="com.ihubdirect.saveaddress_edit">
+        <methods>
+          <include name="f"/>
+          <include name="setup"/>
+          <include name="endtest"/>
+          <include name="afterSuite"/>
+          <include name="suite"/>
+        </methods>
+      </class> <!-- com.ihubdirect.saveaddress_edit -->
+      <class name="com.ihubdirect.New_arrivals">
+        <methods>
+          <include name="f"/>
+          <include name="setup"/>
+          <include name="endtest"/>
+          <include name="suite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.ihubdirect.New_arrivals -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
